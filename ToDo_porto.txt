@@ -1,0 +1,19 @@
+Porto seguro
+・最終的にはアンサンブルでやりたい
+	①lightGBM(or XGBoost)
+	②LGR
+	③NN
+・calc系の特徴量は入れない方がいいはず
+　ハイパーパラメータ固定で試す。
+　lightGBMでいいかな（XGBoostよりスジよさそうだし。）
+
+ToDo
+1.calc系を入れる入れないの確認
+ lightGBMのハイパーパラメータ固定で確認
+ 5fold-CV、public、private
+2.各手法のスコアの確認
+ lightGBM
+ XGBoost
+ LGR
+ NN
+ 各種ある程度ハイパーパラメータの設定をした方がいい？？
